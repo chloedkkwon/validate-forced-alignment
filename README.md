@@ -1,6 +1,6 @@
 # validate-forced-alignment
 
-A MATLAB-based toolkit to validate forced alignment outputs by comparing automatically aligned TextGrids against manually corrected ones. This tool is useful for researchers working in phonetics, linguistics, and speech processing who need to evaluate the accuracy of forced aligners.
+This is a MATLAB-based toolkit to validate forced alignment outputs by comparing automatically aligned TextGrids against manually corrected ones. This tool is useful for researchers working in phonetics, linguistics, and speech processing who need to evaluate the accuracy of forced aligners.
 
 ## Overview
 
