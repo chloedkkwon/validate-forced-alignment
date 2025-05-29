@@ -24,15 +24,3 @@ This tool helps quantify **how closely the forced aligner output matches the man
 
 ## How to run
 Run the  `run.m` file in Matlab. 
-
-## Directory Structure
-validate-forced-alignment/
-├── sample_data/
-│ ├── manual/ # Folder with manually-aligned TextGrids
-│ ├── auto/ # Folder with auto-aligned TextGrids
-├── run.m # Main script to run the pipeline
-├── functions/
-│ ├── process_grids.m # Loads and pairs TextGrids into a .mat table
-│ ├── compare_alignments.m # Computes deviations between manual and auto alignments
-└── README.md
-
