@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.982
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = ""
+		xmin = 0
+		xmax = 2.982
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.000000000
+			xmax = 0.198000000
+			text = "SIL"
+		intervals [2]:
+			xmin = 0.198000000
+			xmax = 0.702000000
+			text = "yeongmineun"
+		intervals [3]:
+			xmin = 0.702000000
+			xmax = 1.148000000
+			text = "deulpane"
+		intervals [4]:
+			xmin = 1.148000000
+			xmax = 1.610000000
+			text = "isseo"
+		intervals [5]:
+			xmin = 1.610000000
+			xmax = 2.982000000
+			text = "SIL"
+	item [2]:
+		class = "IntervalTier"
+		name = ""
+		xmin = 0
+		xmax = 2.982
+		intervals: size = 19
+		intervals [1]:
+			xmin = 0.000000000
+			xmax = 0.198000000
+			text = "SIL"
+		intervals [2]:
+			xmin = 0.198000000
+			xmax = 0.308000000
+			text = "iEO_name"
+		intervals [3]:
+			xmin = 0.308000000
+			xmax = 0.390000000
+			text = "NG_name"
+		intervals [4]:
+			xmin = 0.390000000
+			xmax = 0.446000000
+			text = "Mm_name"
+		intervals [5]:
+			xmin = 0.446000000
+			xmax = 0.504000000
+			text = "I_name"
+		intervals [6]:
+			xmin = 0.504000000
+			xmax = 0.538000000
+			text = "N_name"
+		intervals [7]:
+			xmin = 0.538000000
+			xmax = 0.636000000
+			text = "EU_name"
+		intervals [8]:
+			xmin = 0.636000000
+			xmax = 0.702000000
+			text = "n_name"
+		intervals [9]:
+			xmin = 0.702000000
+			xmax = 0.766000000
+			text = "D_init"
+		intervals [10]:
+			xmin = 0.766000000
+			xmax = 0.864000000
+			text = "EU"
+		intervals [11]:
+			xmin = 0.864000000
+			xmax = 0.886000000
+			text = "l"
+		intervals [12]:
+			xmin = 0.886000000
+			xmax = 0.982000000
+			text = "Ph"
+		intervals [13]:
+			xmin = 0.982000000
+			xmax = 1.078000000
+			text = "A"
+		intervals [14]:
+			xmin = 1.078000000
+			xmax = 1.140000000
+			text = "N"
+		intervals [15]:
+			xmin = 1.140000000
+			xmax = 1.148000000
+			text = "E"
+		intervals [16]:
+			xmin = 1.148000000
+			xmax = 1.284000000
+			text = "I_verb"
+		intervals [17]:
+			xmin = 1.284000000
+			xmax = 1.464000000
+			text = "SS_verb"
+		intervals [18]:
+			xmin = 1.464000000
+			xmax = 1.610000000
+			text = "EO_verb"
+		intervals [19]:
+			xmin = 1.610000000
+			xmax = 2.982000000
+			text = "SIL"
