@@ -2,7 +2,7 @@
 % May 29, 2025
 % Change the path vars to adjust to your data structure
 
-main_path = '/Users/chloekwon/validate_forced_alignment'; % main directory path to subfolders with scripts and data
+main_path = '/Users/chloekwon/Desktop/side_project/validate_forced_alignment'; % main directory path to subfolders with scripts and data
 addpath(main_path); 
 
 auto_path = fullfile(main_path, 'sample_data', 'auto'); %folder for auto-aligned textgrids

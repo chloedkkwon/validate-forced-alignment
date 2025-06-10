@@ -26,7 +26,7 @@ end
 T = struct(); % Output
 
 M = struct(); 
- for i=1:size(manual_grids,1)
+for i=1:size(manual_grids,1)
     fname = manual_grids(i).name;
     folder = manual_grids(i).folder; 
     filepath = fullfile(folder, fname); 
@@ -40,15 +40,15 @@ M = struct();
     for j=1:n_tier
         tier_name = tg.tiers{j}.name; 
         texts = {tg.tiers{j}.intervals.text}'; 
-        xmins = [tg.tiers{j}.intervals.xmin]'; 
-        xmaxs = [tg.tiers{j}.intervals.xmax]'; 
+        xmins = [tg.tiers{j}.intervals.xmin]' * 1000; % convert to milliseconds 
+        xmaxs = [tg.tiers{j}.intervals.xmax]' * 1000; 
 
         tier_table = table(texts, xmins, xmaxs, ...
             'VariableNames', {'label', 't0', 't1'}); 
 
         M(i).(tier_name) = tier_table;
     end
- end
+end
 
 A = struct(); 
  for i=1:size(auto_grids,1)
@@ -65,8 +65,8 @@ A = struct();
     for j=1:n_tier
         tier_name = tg.tiers{j}.name; 
         texts = {tg.tiers{j}.intervals.text}'; 
-        xmins = [tg.tiers{j}.intervals.xmin]'; 
-        xmaxs = [tg.tiers{j}.intervals.xmax]'; 
+        xmins = [tg.tiers{j}.intervals.xmin]' * 1000; 
+        xmaxs = [tg.tiers{j}.intervals.xmax]' * 1000; 
 
         tier_table = table(texts, xmins, xmaxs, ...
             'VariableNames', {'label', 't0', 't1'}); 

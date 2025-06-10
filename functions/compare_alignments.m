@@ -56,7 +56,7 @@ for f = 1:numFiles
 
     % Get phone tier info
     phoneTier_manual = M.(phoneTier_name){f}; 
-    phoneTier_auto = A.(wordTier_name){f}; 
+    phoneTier_auto = A.(phoneTier_name){f}; 
     phoneTier_comparison = get_deviations(phoneTier_manual, phoneTier_auto, fname); 
 
     P(f).phoneTier_manual = phoneTier_manual; 
