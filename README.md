@@ -11,7 +11,7 @@ This repository provides tools and visualizations for analyzing and validating f
 
 ## Getting Started
 
-1. Clone the repository:
+1. Download or clone the repository:
    ```bash
    git clone https://github.com/yourusername/validate-forced-alignment.git
 2. Run the `run.m` file and/or walk through `demo.mlx` to see a quick guide. Pdf file is also available [here](demo.pdf).
